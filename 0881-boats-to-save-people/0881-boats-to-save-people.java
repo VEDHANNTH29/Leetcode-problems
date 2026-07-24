@@ -9,12 +9,11 @@ class Solution {
                 count++;
             }
             else{
-              if(people[right]<=limit){
                  count++;
-                right--;
+                 right--;
                }
             }
-        }
+        
         return count;
     }
 }
